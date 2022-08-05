@@ -14,17 +14,17 @@
         </div>
         <div class="buttons">
             <div class="row">
-                <button id="ce">CE</button>
+                <button id="ce" class="btn">CE</button>
                 <button class="btn">x!</button>
                 <button class="btn">(</button>
                 <button class="btn">)</button>
                 <button class="btn">%</button>
-                <button id="ac">AC</button>
+                <button id="ac"  onclick="screen.value=''">A/c</button>
             </div>
 
             <div class="row">
-                <button onclick="sin()">sin</button>
-                <button onclick="pi()">π</button>
+                <button onclick="sin()" class="btn">sin</button>
+                <button onclick="pi()" class="btn">π</button>
                 <button class="btn">7</button>
                 <button class="btn">8</button>
                 <button class="btn">9</button>
@@ -33,18 +33,18 @@
             </div>
             
             <div class="row">
-                <button id="ce">cos</button>
+                <button id="ce" class="btn">cos</button>
                 <button class="btn">log</button>
                 <button class="btn">4</button>
                 <button class="btn">5</button>
                 <button class="btn">6</button>
-                <button id="ac">×</button>
+                <button id="ac">x</button>
 
             </div>
 
             <div class="row">
-                <button onclick="tan()">tan</button>
-                <button onclick="sqrt()">√</button>
+                <button onclick="tan()" class="btn">tan</button>
+                <button onclick="sqrt()" class="btn">√</button>
                 <button class="btn">1</button>
                 <button class="btn">2</button>
                 <button class="btn">3</button>
@@ -54,12 +54,12 @@
 
 
             <div class="row">
-                <button id="ce">e</button>
+                <button id="ce" class="btn">e</button>
                 <button class="btn">x <span style="position: relative; bottom: .4em; right: .1em;">y</button>
                 <button class="btn">0</button>
                 <button class="btn">.</button>
-                <button class="btn">=</button>
-                <button id="ac">+</button>
+                <button id="eval" onclick="screen.value=eval(screen.value)">=</button>
+                <button id="ac" class="btn">+</button>
 
             </div>
         </div>
