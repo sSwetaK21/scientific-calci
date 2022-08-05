@@ -22,7 +22,7 @@ for (item of btn) {
         btntext = e.target.innerText;
 
         if (btntext == 'x') {
-            btntext = '*';
+            btntext = "*";
         }
 
         if (btntext == '÷') {
@@ -46,4 +46,26 @@ function tan(){
 
 function pi(){
     screen.value = Math.pi(screen.value)
+}
+
+
+function pow(){
+    screen.value = Math.pow(screen.value)
+}
+
+function sqrt(){
+    screen.value = Math.sqrt(screen.value)
+}
+
+function log(){
+    screen.value = Math.log(screen.value)
+}
+
+
+function e(){
+    screen.value = 2.71828182846;
+}
+
+function backspc() {
+    screen.value = screen.value.substr(0, screen.value.length - 1);
 }

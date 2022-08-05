@@ -8,14 +8,17 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div class="content">
+        <h1 class="headingtag"> Scientific Calculator</h1>
+   
     <div class="container">
         <div class="display">
             <input id="screen" type="text" placeholder="0">
         </div>
         <div class="buttons">
             <div class="row">
-                <button id="ce" class="btn">CE</button>
-                <button class="btn">x!</button>
+                <button id="ce" class="btn" onclick="backspc()">CE</button>
+                <button class="btn" onclick="fact()">x!</button>
                 <button class="btn">(</button>
                 <button class="btn">)</button>
                 <button class="btn">%</button>
@@ -33,12 +36,12 @@
             </div>
             
             <div class="row">
-                <button id="ce" class="btn">cos</button>
-                <button class="btn">log</button>
+                <button  class="btn" onclick="cos()">cos</button>
+                <button class="btn" onclick="log()">log</button>
                 <button class="btn">4</button>
                 <button class="btn">5</button>
                 <button class="btn">6</button>
-                <button id="ac">x</button>
+                <button  class="btn">x</button>
 
             </div>
 
@@ -54,18 +57,18 @@
 
 
             <div class="row">
-                <button id="ce" class="btn">e</button>
-                <button class="btn">x <span style="position: relative; bottom: .4em; right: .1em;">y</button>
+                <button  class="btn" class="btn1" onclick="e()">e</button>
+                <button class="btn" onclick="pow()">x <span style="position: relative; bottom: .4em; right: .1em;">y</button>
                 <button class="btn">0</button>
                 <button class="btn">.</button>
                 <button id="eval" onclick="screen.value=eval(screen.value)">=</button>
-                <button id="ac" class="btn">+</button>
+                <button  class="btn">+</button>
 
             </div>
         </div>
     </div>
 
-
+</div>
     <script src="index.js"></script>
 </body>
 </html>
