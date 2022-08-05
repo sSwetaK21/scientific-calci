@@ -69,3 +69,11 @@ function e(){
 function backspc() {
     screen.value = screen.value.substr(0, screen.value.length - 1);
 }
+
+function fact(){
+    let fact = 1;
+    for(let i=1; i<=screen.value ; i++){
+        fact *= i
+    }
+    screen.value= fact
+}
