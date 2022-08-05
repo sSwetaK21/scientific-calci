@@ -1,6 +1,6 @@
 let screen = document.querySelector('#screen')
 // let buttons = Array.from(document.getElementsByClassName('btn'))
-var btn = document.querySelectorAll('.btn');
+let btn = document.querySelectorAll('.btn');
 
 
 // buttons.map( (btn) => {
