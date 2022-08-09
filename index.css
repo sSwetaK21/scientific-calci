@@ -8,8 +8,8 @@ body{
      height: 100vh;
      background-color: hsl(221, 26%, 44%);
      display: flex;
-     align-items: center;
-     justify-content: center;
+     align-items: stretch;
+     justify-content: space-around;
 }
 .container{
     background-color: #252e41;

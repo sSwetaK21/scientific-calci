@@ -50,7 +50,7 @@ function pi(){
 
 
 function pow(){
-    screen.value = Math.pow(screen.value)
+    screen.value = Math.pow(screen.value, 2)
 }
 
 function sqrt(){
@@ -63,7 +63,7 @@ function log(){
 
 
 function e(){
-    screen.value = 2.71828182846;
+    screen.value *= 2.71828182846;
 }
 
 function backspc() {
